@@ -17,6 +17,12 @@ The package covers the majority of non-isolated and isolated DC-DC converter top
     - Halfbridge
     - Fullbridge
 
+## Installation
+
+```
+pip install "dist\power_converter-0.1.0-py3-none-any.whl"
+```
+
 ## Example Usage
 
 ```
