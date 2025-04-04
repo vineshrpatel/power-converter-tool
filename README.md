@@ -19,9 +19,14 @@ The package covers the majority of non-isolated and isolated DC-DC converter top
 
 ## Installation
 
+Note, in Windows you may need to temporarily disable Git's check for post-checkout hooks to pip install the package.
+```
+set "GIT_CLONE_PROTECTION_ACTIVE=false" && git clone https://github.com/vineshrpatel/power-converter-tool
+```
+
 After cloning the repository:
 ```
-pip install "dist\power_converter-0.1.0-py3-none-any.whl"
+pip install "power-converter-tool\dist\power_converter-0.1.0-py3-none-any.whl"
 ```
 
 ## Example Usage
