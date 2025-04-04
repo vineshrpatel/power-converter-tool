@@ -33,3 +33,8 @@ boost_gui.run_boost_gui()
 ```
 
 Note, for other converters replace 'boost' with the converter name (lowercase with no spaces)
+
+
+## Acknowledgement
+
+I acknowledge the use of ChatGPT, Claude, and Gemini in the development of aspects of python scripts for this project.
