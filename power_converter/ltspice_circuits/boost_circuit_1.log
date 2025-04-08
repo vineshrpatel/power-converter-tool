@@ -1,0 +1,24 @@
+Circuit: * C:\Users\vines\OneDrive - Durham University\Year 4\Engineering_Y4\Capstone Project\mypythonlibrary\power_converter\ltspice_circuits\boost_circuit.asc
+
+Limiting rise time of source v2 to 3.125e-06
+Limiting fall time of source v2 to 3.125e-06
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Apr  8 22:53:20 2025
+Total elapsed time: 0.802 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 340233
+traniter = 340223
+tranpoints = 125222
+accept = 93585
+rejected = 31637
+matrix size = 11
+fillins = 1
+solver = Normal
+Avg thread counts: 1.0/1.0/1.0/1.0
+Matrix Compiler1:      29 opcodes  0.2/[0.1]/0.2
+Matrix Compiler2: 793 bytes object code size  0.2/0.3/[0.2]
+
