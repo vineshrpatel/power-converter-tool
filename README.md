@@ -19,9 +19,9 @@ The package covers the majority of non-isolated and isolated DC-DC converter top
 
 ## Notes
 
-All LTSpice simulations use the BSC060N10NS3 MOSFET which has $V_{DS}=100\;V$. Please note the simulation may still run using higher voltages but is not representative of the real-world device.<br>
+All LTSpice simulations use the BSC060N10NS3 MOSFET which has $V_{DS}=100 V$. Please note the simulation may still run using higher voltages but is not representative of the real-world device.<br>
 
-All LTSpice simulations use the UPSC600 Schottky didoe which has $V_{breakdown} = 600\;V$.
+All LTSpice simulations use the UPSC600 Schottky didoe which has $V_{breakdown} = 600 V$.
 
 
 ## Installation
