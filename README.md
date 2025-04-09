@@ -17,6 +17,13 @@ The package covers the majority of non-isolated and isolated DC-DC converter top
     - Halfbridge
     - Fullbridge
 
+## Notes
+
+All LTSpice simulations use the BSC060N10NS3 MOSFET which has $V_{DS}=100\;V$. Please note the simulation may still run using higher voltages but is not representative of the real-world device.<br>
+
+All LTSpice simulations use the UPSC600 Schottky didoe which has $V_{breakdown} = 600\;V$.
+
+
 ## Installation
 
 Note, in Windows you may need to temporarily disable Git's check for post-checkout hooks to pip install the package.
@@ -26,7 +33,7 @@ set "GIT_CLONE_PROTECTION_ACTIVE=false" && git clone https://github.com/vineshrp
 
 After cloning the repository:
 ```
-pip install "power-converter-tool\dist\power_converter-0.1.0-py3-none-any.whl"
+pip install "power-converter-tool\dist\power_converter-0.1.1-py3-none-any.whl"
 ```
 
 ## Example Usage
